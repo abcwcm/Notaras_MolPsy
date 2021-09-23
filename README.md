@@ -2,6 +2,10 @@
 
 Scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there.
 
+
+![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
+
+
 Several dozen organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
@@ -9,9 +13,6 @@ Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 The processing was done in 2019 when Seurat's scTransform method was en vogue.
 Data (e.g. read counts generated with CellRanger) are available from GEO.
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
-
-
-![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
 
 ----------------------------------------------------------
 
