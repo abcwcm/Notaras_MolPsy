@@ -19,7 +19,8 @@ Based on the calculation of outliers, we subsequently removed cells with fewer t
 Genes that were expressed in fewer than 5 cells were removed as well.
 We then processed and integrated the different samples using Seurat version 3.1 following the recommendations from the Satija Lab's vignette (https://satijalab.org/seurat/v3.1/integration.html).
 More specifically, read counts were first normalized using SCTransform for each sample individually [Ref: https://www.biorxiv.org/content/10.1101/576827v1].
-The different samples were then integrated using the top 3,000 most informative genes [Ref: https://doi.org/10.1016/j.cell.2019.05.031] before performing various dimensionality reduction steps including PCA and UMAP [Ref: https://www.nature.com/articles/nbt.4314].
+
+The different samples were then integrated using the top 3,000 most informative genes [Ref: https://doi.org/10.1016/j.cell.2019.05.031] before performing various dimensionality reduction steps including PCA and UMAP [Ref: https://www.nature.com/articles/nbt.4314]. *For details, see `seurat_alignment.R`.*
 A shared nearest neighbor graph was constructed using Seurat's FindNeighbors function with default settings (e.g. k = 20) using the first 25 principal components.
 Subsequent clustering was performed with Seurat's FindClusters function with the resolution parameter set to 0.2 [Ref: https://link.springer.com/article/10.1140%2Fepjb%2Fe2013-40829-0].
 For visualizations and assessments of normalized expression values, the SCTransform-normalized (log-transformed) expression values were used unless noted otherwise.
