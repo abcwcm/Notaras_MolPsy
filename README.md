@@ -1,7 +1,6 @@
-# Notaras_MolPsy
-Scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there
+# Notaras et al. (2021) Molecular Psychiatry
 
-scRNA-seq data was generated from cerebral organoids meant to mimick healthy brains and those from patients affected by Schizophrenia.
+Scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there.
 
 Several dozen organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
