@@ -12,7 +12,8 @@ For questions, don't hesitate to reach out to Friederike Dündar at the [Applied
 ## Alignment, filtering, normalization and batch correction
 
 Initial processing of the raw reads and alignment to GRCh38 was done with the CellRanger pipeline (v. 3.0.2; https://support.10xgenomics.com/single-cell-vdj/software/pipelines/latest/what-is-cell-ranger).
-The summary CellRanger reports can be found at github.com/abcwcm/.
+For details see `01_alignment_with_cellRanger.sh`.
+
 Subsequent analyses were performed in R following the recommendations of Amezquita et al. [Ref: https://www.biorxiv.org/content/10.1101/590562v1] (https://osca.bioconductor.org/) using numerous functions provided in the R packages scater and scran [Refs: https://dx.doi.org/10.12688/f1000research.9501.2, https://dx.doi.org/10.12688/f1000research.9501.2].
 
 Based on the calculation of outliers, we subsequently removed cells with fewer than 317 genes and more than 8% mitochondrial reads.
