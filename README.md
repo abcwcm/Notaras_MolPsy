@@ -6,8 +6,11 @@ Several dozen organoids were dissociated using Accutase and serially filtered to
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
-The processing was done in 2019 when Seurat's scTransform method was en vogue. Data (e.g. read counts generated with CellRanger) is available at GEO.
+The processing was done in 2019 when Seurat's scTransform method was en vogue.
+Data (e.g. read counts generated with CellRanger) are available from GEO.
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
+
+----------------------------------------------------------
 
 ## Alignment, filtering, normalization and batch correction
 
@@ -34,7 +37,7 @@ To assign cell type labels to subpopulations of single cells, we used informatio
 To identify marker genes of the individual clusters and samples, Seurat's FindMarkers and FindAllMarkers functions were used with default settings as well as scran::FindMarkers(), comparing only cells of the control condition.
 For SingleR, we used its in-built reference data set of the human primary cell atlas, which contains RNA-seq from adult human tissues, including neurons and myeloid cells.
 In addition, we downloaded the single-cell RNA-seq data from numerous human fetal brain samples that was published by Nowakowski et al. [Ref: https://science.sciencemag.org/content/358/6368/1318.full] and used it as the training data with the refactored Bioconductor version of SingleR (http://www.bioconductor.org/packages/devel/bioc/html/SingleR.html).
-For details, se `code_cellLabeling.md`.
+For details, see `code_cellLabeling.md`.
 
 ### Diffusion maps and pseudotime trajectory analyses
 
@@ -49,11 +52,12 @@ For details, see `code_pseudotime.md`.
 For determining genes that were differentially expressed between cells that were assigned to the same clusters after Seurat's integration procedure (see above), we used a pseudo-bulk approach [Ref: https://www.ncbi.nlm.nih.gov/pubmed/28334062], summing the reads across all cells belonging to the same type of cells (where "type" would be determined by, for example, the sample and the membership within a given subpopulation of interest).
 To identify genes with significantly different expression levels between two types of cells (DEG), we used methods implemented in the edgeR package including dispersion estimation and genewise negative binomial generalized linear models with quasi-likelihood tests [Ref: https://dx.doi.org/10.1093/nar/gks042].
 Unless stated otherwise, DEG were based on adjusted p-values lower than 0.01.
-For details of the code, see https://github.com/abcwcm/.
+For details of the code, see `code_DEG.md`.
 
 ### Over-representation of gene sets
 
 To test for over-representation of specific gene sets of KEGG, REACTOME and gene ontology collections in our DEG lists, we used the enrichment functions implemented in clusterProfiler and reactomePA [Ref: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3339379/] (enrichKEGG, enrichPathway, enrichGO) with an adjusted p-value cut-off of 0.05.
+For details of the code, see `code_DEG.md`.
 
 -----------------
 
