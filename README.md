@@ -7,7 +7,9 @@ Viability and cell numbers were determined prior to 10X Genomics Chromium librar
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
 The processing was done in 2019 when Seurat's scTransform method was en vogue.
-Data (e.g. read counts generated with CellRanger) are available from GEO.
+Raw data (e.g. read counts generated with CellRanger) are available from GEO.
+The final, filtered, processed R object including cell labels, clustering, dimensionality reductions etc. can be downloaded [here](https://wcm.box.com/shared/static/a4vfzycxz0j8irg2catitszjzekmg9t9.rda). The object is of the format `SingleCellExperiment`, i.e. you will need the [package of the same name](http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html).
+
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
 
 ![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
@@ -17,7 +19,7 @@ For questions, don't hesitate to reach out to Friederike Dündar at the [Applied
 ## Alignment, filtering, normalization and batch correction
 
 Initial processing of the raw reads and alignment to GRCh38 was done with the CellRanger pipeline (v. 3.0.2; https://support.10xgenomics.com/single-cell-vdj/software/pipelines/latest/what-is-cell-ranger).
-For details see `01_alignment_with_cellRanger.sh`.
+For details see `code_alignment_with_cellRanger.sh`.
 
 Subsequent analyses were performed in R following the recommendations of Amezquita et al. [Ref: https://www.biorxiv.org/content/10.1101/590562v1] (https://osca.bioconductor.org/) using numerous functions provided in the R packages scater and scran [Refs: https://dx.doi.org/10.12688/f1000research.9501.2, https://dx.doi.org/10.12688/f1000research.9501.2].
 
