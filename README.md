@@ -10,6 +10,9 @@ The processing was done in 2019 when Seurat's scTransform method was en vogue.
 Data (e.g. read counts generated with CellRanger) are available from GEO.
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
 
+
+![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
+
 ----------------------------------------------------------
 
 ## Alignment, filtering, normalization and batch correction
@@ -77,5 +80,3 @@ For details of the code, see `code_DEG.md`.
 * SingleR: <https://dx.doi.org/10.1038/s41590-018-0276-y>
 * slingshot: <https://www.ncbi.nlm.nih.gov/pubmed/29914354>
 * UMAP: <https://www.nature.com/articles/nbt.4314>
-
-![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
