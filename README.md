@@ -7,6 +7,7 @@ Viability and cell numbers were determined prior to 10X Genomics Chromium librar
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
 The processing was done in 2019 when Seurat's scTransform method was en vogue. Data (e.g. read counts generated with CellRanger) is available at GEO.
+For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
 
 ## Alignment, filtering, normalization and batch correction
 
@@ -67,3 +68,4 @@ To test for over-representation of specific gene sets of KEGG, REACTOME and gene
 * slingshot: https://www.ncbi.nlm.nih.gov/pubmed/29914354
 * UMAP: https://www.nature.com/articles/nbt.4314
 
+![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
