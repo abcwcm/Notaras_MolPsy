@@ -31,6 +31,7 @@ To assign cell type labels to subpopulations of single cells, we used informatio
 To identify marker genes of the individual clusters and samples, Seurat's FindMarkers and FindAllMarkers functions were used with default settings as well as scran::FindMarkers(), comparing only cells of the control condition.
 For SingleR, we used its in-built reference data set of the human primary cell atlas, which contains RNA-seq from adult human tissues, including neurons and myeloid cells.
 In addition, we downloaded the single-cell RNA-seq data from numerous human fetal brain samples that was published by Nowakowski et al. [Ref: https://science.sciencemag.org/content/358/6368/1318.full] and used it as the training data with the refactored Bioconductor version of SingleR (http://www.bioconductor.org/packages/devel/bioc/html/SingleR.html).
+For details, se `code_cellLabeling.md`.
 
 ### Diffusion maps and pseudotime trajectory analyses
 
@@ -55,19 +56,19 @@ To test for over-representation of specific gene sets of KEGG, REACTOME and gene
 
 ## References
 
-* Amezquita et al.: https://www.biorxiv.org/content/10.1101/590562v1
-* clusterProfiler: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3339379/
-* destiny: https://www.ncbi.nlm.nih.gov/pubmed/26668002
-* edgeR: https://dx.doi.org/10.1093/nar/gks042
-* Haghverdi et al: https://www.ncbi.nlm.nih.gov/pubmed/27571553
-* Nowakowski et al. (human fetal brain data set): https://science.sciencemag.org/content/358/6368/1318.full
-* pseudo-bulk: https://www.ncbi.nlm.nih.gov/pubmed/28334062
-* scater: https://www.ncbi.nlm.nih.gov/pubmed/28088763
-* scTransform: https://www.biorxiv.org/content/10.1101/576827v1
-* scran: https://dx.doi.org/10.12688/f1000research.9501.2
-* Seurat integration: https://doi.org/10.1016/j.cell.2019.05.031
-* SingleR: https://dx.doi.org/10.1038/s41590-018-0276-y
-* slingshot: https://www.ncbi.nlm.nih.gov/pubmed/29914354
-* UMAP: https://www.nature.com/articles/nbt.4314
+* Amezquita et al.: <https://www.biorxiv.org/content/10.1101/590562v1>
+* clusterProfiler: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3339379/>
+* destiny: <https://www.ncbi.nlm.nih.gov/pubmed/26668002>
+* edgeR: <https://dx.doi.org/10.1093/nar/gks042>
+* Haghverdi et al: <https://www.ncbi.nlm.nih.gov/pubmed/27571553>
+* Nowakowski et al. (human fetal brain data set): <https://science.sciencemag.org/content/358/6368/1318.full>
+* pseudo-bulk: <https://www.ncbi.nlm.nih.gov/pubmed/28334062>
+* scater: <https://www.ncbi.nlm.nih.gov/pubmed/28088763>
+* scTransform: <https://www.biorxiv.org/content/10.1101/576827v1>
+* scran: <https://dx.doi.org/10.12688/f1000research.9501.2>
+* Seurat integration: <https://doi.org/10.1016/j.cell.2019.05.031>
+* SingleR: <https://dx.doi.org/10.1038/s41590-018-0276-y>
+* slingshot: <https://www.ncbi.nlm.nih.gov/pubmed/29914354>
+* UMAP: <https://www.nature.com/articles/nbt.4314>
 
 ![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
