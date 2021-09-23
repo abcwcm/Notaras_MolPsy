@@ -38,6 +38,7 @@ For ordering the cells along pseudotime trajectories, we first constructed diffu
 We then inferred cell lineages and temporally expressed genes using slingshot [Ref: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4772-0] and following the recommendations of the vignette (https://www.bioconductor.org/packages/release/bioc/vignettes/slingshot/inst/doc/vignette.html).
 In brief, pseudotime values were extracted for each cell along each lineage identified by slingshot.
 Then, each gene's normalized expression values were regressed on the pseudotime variable using a general additive model to identify those whose expression patterns most closely correlate with the pseudotime weights.
+For details, see `code_pseudotime.md`.
 
 ### Identification of differentially expressed genes between control and disease organoids
 
