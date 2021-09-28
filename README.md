@@ -3,8 +3,11 @@
 Notaras et al. (2021) demonstrate that brain organoids derived from iPSC of patients with schizophrenia show grave differences in their in vitro developmental potential, providing evidence that neuronal development might be impacted very early on in life by genomic differences, leaving persons with inherited risk loci more vulnerable to environmental triggers to develop schizophrenia later in life.
 
 This repository contains the scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there.
+There are 4 samples from Control organoids, 3 samples from Scz organoids.
+Organoids were derived from donated fibroblasts that were turned into iPSC.
+For details, see the manuscript.
 
-Several dozen cerebral organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
+Cerebral organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
