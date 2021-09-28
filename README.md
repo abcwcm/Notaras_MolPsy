@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/409572590.svg)](https://zenodo.org/badge/latestdoi/409572590)
+
 # Notaras et al. (2021) Molecular Psychiatry
 
 Notaras et al. (2021) demonstrate that brain organoids derived from iPSC of patients with schizophrenia show grave differences in their in vitro developmental potential, providing evidence that neuronal development might be impacted very early on in life by genomic differences, leaving persons with inherited risk loci more vulnerable to environmental triggers to develop schizophrenia later in life.
