@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/409572590.svg)](https://zenodo.org/badge/latestdoi/409572590)
-
 # Notaras et al. (2021) Molecular Psychiatry
 
 Notaras et al. (2021) demonstrate that brain organoids derived from iPSC of patients with schizophrenia show grave differences in their in vitro developmental potential, providing evidence that neuronal development might be impacted very early on in life by genomic differences, leaving persons with inherited risk loci more vulnerable to environmental triggers to develop schizophrenia later in life.
@@ -20,6 +18,8 @@ In brief:
 * The final, filtered, processed R object including cell labels, clustering, dimensionality reductions etc. can be downloaded [here](https://wcm.box.com/shared/static/a4vfzycxz0j8irg2catitszjzekmg9t9.rda). The object is of the format `SingleCellExperiment`, i.e. you will need the [package of the same name](http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html).
 
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
+
+[![DOI](https://zenodo.org/badge/409572590.svg)](https://zenodo.org/badge/latestdoi/409572590)
 
 ![](WCM_MB_LOGO_HZSS1L_CLR_RGB.png)
 
