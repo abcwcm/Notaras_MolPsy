@@ -1,13 +1,15 @@
 # Notaras et al. (2021) Molecular Psychiatry
 
-Scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there.
+Notaras et al. (2021) demonstrate that brain organoids derived from iPSC of patients with schizophrenia show grave differences in their in vitro developmental potential, providing evidence that neuronal development might be impacted very early on in life by genomic differences, leaving persons with inherited risk loci more vulnerable to environmental triggers to develop schizophrenia later in life.
 
-Several dozen organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
+This repository contains the scripts and code details related to Notaras et al., 2021, more specifically to the single-cell RNA-seq data presented there.
+
+Several dozen cerebral organoids were dissociated using Accutase and serially filtered to remove debris before being pelleted via slow centrifugation.
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
 The processing was done in 2019 when Seurat's scTransform method was en vogue.
-Raw data (e.g. read counts generated with CellRanger) are available from GEO.
+Raw data (e.g. read counts generated with CellRanger) are available from **GEO: GSE184878**.
 The final, filtered, processed R object including cell labels, clustering, dimensionality reductions etc. can be downloaded [here](https://wcm.box.com/shared/static/a4vfzycxz0j8irg2catitszjzekmg9t9.rda). The object is of the format `SingleCellExperiment`, i.e. you will need the [package of the same name](http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html).
 
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
