@@ -8,9 +8,11 @@ Several dozen cerebral organoids were dissociated using Accutase and serially fi
 Viability and cell numbers were determined prior to 10X Genomics Chromium library preparation, which was carried out in the Tilgner Lab at Weill Cornell Medicine.
 Sequencing was was performed at the Genomics Core, Weill Cornell Medicine.
 
-The processing was done in 2019 when Seurat's scTransform method was en vogue.
-Raw data (e.g. read counts generated with CellRanger) are available from **GEO: GSE184878**.
-The final, filtered, processed R object including cell labels, clustering, dimensionality reductions etc. can be downloaded [here](https://wcm.box.com/shared/static/a4vfzycxz0j8irg2catitszjzekmg9t9.rda). The object is of the format `SingleCellExperiment`, i.e. you will need the [package of the same name](http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html).
+In brief:
+
+* The processing was done in 2019 when Seurat's scTransform method was briefly en vogue.
+* Raw data (e.g. read counts generated with CellRanger) are available from **GEO: GSE184878**.
+* The final, filtered, processed R object including cell labels, clustering, dimensionality reductions etc. can be downloaded [here](https://wcm.box.com/shared/static/a4vfzycxz0j8irg2catitszjzekmg9t9.rda). The object is of the format `SingleCellExperiment`, i.e. you will need the [package of the same name](http://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html).
 
 For questions, don't hesitate to reach out to Friederike Dündar at the [Applied Bioinformatics Core](https://abc.med.cornell.edu/) or by raising an issue here.
 
