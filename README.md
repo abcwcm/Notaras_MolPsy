@@ -1,4 +1,7 @@
-# Notaras et al. (2021) Molecular Psychiatry
+# Scripts related to single-cell RNA-seq of brain organoids as published by Notaras et al. (2021) Molecular Psychiatry
+
+>Notaras M, Lodhi A, Dündar F, et al. Schizophrenia is defined by cell-specific neuropathology and multiple neurodevelopmental mechanisms in patient-derived cerebral organoids. Mol Psychiatry. 2021;10.1038/s41380-021-01316-6. <doi:10.1038/s41380-021-01316-6>
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/34789849/)
 
 Notaras et al. (2021) demonstrate that brain organoids derived from iPSC of patients with schizophrenia show grave differences in their in vitro developmental potential, providing evidence that neuronal development might be impacted very early on in life by genomic differences, leaving persons with inherited risk loci more vulnerable to environmental triggers to develop schizophrenia later in life.
 
